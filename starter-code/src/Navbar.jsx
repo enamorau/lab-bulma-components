@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button.jsx"
 
 class Navbar extends React.Component {
   render() {
@@ -24,7 +25,7 @@ class Navbar extends React.Component {
         </div>
 
         <div id="navbarExampleTransparentExample" className="navbar-menu">
-          <div classNAme="navbar-start">
+          <div className="navbar-start">
             <a className="navbar-item" href="/">
               Home
             </a>
@@ -38,6 +39,9 @@ class Navbar extends React.Component {
                 <strong>Sign up</strong>
               </a>
               <a className="button is-light">Log in</a>
+            
+              <Button buttonStyle="is-danger" content="logout"/>
+
             </div>
           </div>
         </div>
